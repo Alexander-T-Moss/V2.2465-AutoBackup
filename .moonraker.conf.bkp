@@ -45,12 +45,6 @@ type = web
 repo = fluidd-core/fluidd
 path = ~/fluidd
 
-[update_manager crowsnest]
-type = git_repo
-path = ~/crowsnest
-origin = https://github.com/mainsail-crew/crowsnest.git
-install_script = tools/install.sh
-
 [update_manager ercf-happy_hare]
 type = git_repo
 path = ~/ERCF-Software-V3
